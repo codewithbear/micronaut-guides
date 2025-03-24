@@ -64,7 +64,7 @@ Create a class to encapsulate the Update operations:
 
 source:GenreUpdateCommand[]
 
-callout:serdeable[]
+callout:serializable[]
 
 Create `GenreController`, a controller that exposes a resource with the common CRUD operations:
 
