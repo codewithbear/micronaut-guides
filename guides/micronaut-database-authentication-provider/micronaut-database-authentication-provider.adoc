@@ -75,7 +75,7 @@ Create `User` domain class to store users within our application.
 
 source:domain/User[]
 
-callout:serdeable[]
+callout:serializable[]
 callout:mapped-entity[]
 callout:mapped-entity-id[]
 callout:generated-value[]
@@ -86,7 +86,7 @@ Create `Role` domain class to store authorities within our application.
 
 source:domain/Role[]
 
-callout:serdeable[]
+callout:serializable[]
 callout:mapped-entity[]
 callout:mapped-entity-id[]
 callout:generated-value[]
@@ -97,13 +97,13 @@ Create a `UserRole` which stores a many-to-many relationship between `User` and 
 
 source:domain/UserRole[]
 
-callout:serdeable[]
+callout:serializable[]
 callout:mapped-entity[]
 callout:embeddedid[]
 
 source:domain/UserRoleId[]
 
-callout:serdeable[]
+callout:serializable[]
 callout:embeddable[]
 callout:creator[]
 
@@ -168,7 +168,7 @@ callout:constructor-di[arg0=RegisterService]
 
 === Delegating Authentication Provider
 
-We will set up a https://micronaut-projects.github.io/micronaut-security/latest/api/io/micronaut/security/authentication/AuthenticationProvider.html[AuthenticationProvider] a described in the next diagram.
+We will set up a https://micronaut-projects.github.io/micronaut-security/latest/api/io/micronaut/security/authentication/AuthenticationProvider.html[AuthenticationProvider] as described in the next diagram.
 
 image::delegating_authentication_provider.svg[]
 
