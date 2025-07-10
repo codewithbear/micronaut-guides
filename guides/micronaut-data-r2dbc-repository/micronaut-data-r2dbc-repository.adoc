@@ -111,8 +111,8 @@ Save one genre, and your `genre` table will now contain an entry.
 
 [source, bash]
 ----
-curl -X "POST" "http://localhost:8080/genres" \
-     -H 'Content-Type: application/json; charset=utf-8' \
+curl -X "POST" "http://localhost:8080/genres" 
+     -H 'Content-Type: application/json; charset=utf-8' 
      -d $'{ "name": "music" }'
 ----
 

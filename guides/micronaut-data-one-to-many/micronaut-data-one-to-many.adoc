@@ -12,7 +12,7 @@ In this tutorial, you develop a one-to-many relationship, as illustrated in the 
 [cols="1,1,1", options="header"]
 |===
 | id | first_name | last_name
-| 1  | Sergio       | del Amo
+| 1  | Sergio     | del Amo
 |===
 
 .Table: Phone
@@ -81,7 +81,7 @@ callout:at-query[]
 
 == Tests
 
-The following tests illustrates the association queries:
+The following tests illustrate the association queries:
 
 test:ContactRepositoryTest[]
 callout:micronaut-test-transactional-false[]
